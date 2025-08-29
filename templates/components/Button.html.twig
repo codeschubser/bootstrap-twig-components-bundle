@@ -1,9 +1,0 @@
-{# @var \Codeschubser\Bundle\BootstrapTwigComponentsBundle\Twig\Component\Button this #}
-
-<button {{- attributes.defaults({class: this.defaultCssClass(), type: this.type()}) -}}>
-    {%- if this.icon -%}
-        <twig:Icon name="{{ this.icon }}" class="me-1" />
-    {%- endif -%}
-
-    <twig:block name="content">{{- this.label -}}</twig:block>
-</button>

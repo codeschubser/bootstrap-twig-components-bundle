@@ -52,7 +52,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "check": [
+        "ci": [
             "@php:cs:check",
             "@rector:check",
             "@twig:cs:check",
